@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Glint - Diamond of success</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #161616;
+  }
+  .container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #2D2D2D;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    color: #fff;
+  }
+  h1, h2 {
+    text-align: center;
+    color: #fff;
+  }
+  .download-btn {
+    display: inline-block;
+    width: 100px;
+    padding: 10px;
+    margin-left: 20px;
+    text-align: center;
+    background-color: #535353;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none; /* Убираем подчеркивание */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .download-btn:hover {
+    background-color: #535353;
+  }
+  .version-item {
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+  }
+</style>
+</head>
+<body>
+
+<div class="container">
+  <h1>Welcome to Glint!</h1>
+  <p>
+    Glint is a unique programming language, originally created
+    to be the simplest, yet fast enough and most functional programming language!
+    Please see the documentation
+  </p>
+  <a href="https://glint.gitbook.io/" class="download-btn" target="_blank">Documentation</a>
+</div>
+
+<div class="version-block container">
+  <h2>Download Glint Versions</h2>
+  <div class="version-item">
+    <span>Glint v0.0.3</span>
+    <a href="https://Then_there_will_be_a_direct_link_to_download_the_installer_v_0_0_3" class="download-btn">Download</a>
+  </div>
+  <div class="version-item">
+    <span>Glint v0.0.2</span>
+    <a href="https://Then_there_will_be_a_direct_link_to_download_the_installer_v_0_0_2" class="download-btn">Download</a>
+  </div>
+  <div class="version-item">
+    <span>Glint v0.0.1</span>
+    <a href="https://Then_there_will_be_a_direct_link_to_download_the_installer_v_0_0_1" class="download-btn">Download</a>
+  </div>
+</div>
+
+<script>
+  function downloadVersion(version) {
+    // Replace the URL with the actual download link for the specific version of Glint
+    var downloadUrl = "https://example.com/glint-v" + version + "-installer.exe";
+    window.location.href = downloadUrl;
+  }
+</script>
+
+</body>
+</html>
